@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praktikum Minggu 3 - Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar">
+  <div class="container nav__wrapper">
+
+    <!-- LOGO -->
+    <div class="logo">
+      <span class="logo-icon"></span>
+      Azri Portfolio
+    </div>
+
+    <!-- MENU -->
+    <ul class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- BUTTON -->
+    <a href="#contact" class="hire-btn">Hire Me</a>
+
+  </div>
+</nav>
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="hero__content">
+      <span class="hero__badge"></span>
+      <h1 class="hero__title">
+        Hai, Saya<span class="highlight">
+        Azri Destria</span><br>
+        Mahasiswi Sistem Informasi
+      </h1>
+      <p class="hero__desc">
+        Saya membangun website yang cepat, responsif, dan profesional.
+      </p>
+
+      <div class="hero__actions">
+        <div class="hero-buttons">
+  <a href="#portfolio" class="hero-btn">Lihat Portfolio</a>
+  <a href="#contact" class="hero-btn outline">Hubungi Saya</a>
+</div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ME ================= -->
+<section class="about" id="about">
+  <div class="container about__wrapper">
+
+    <!-- FOTO -->
+    <div class="about__image">
+      <img src="images/foto.jpg" alt="Foto Azri">
+    </div>
+
+    <!-- TEXT -->
+    <div class="about__content">
+      <h2 class="section-title">Tentang Saya</h2>
+      <p>
+        Saya adalah mahasiswi <strong>Sistem Informasi</strong> di Universitas 
+        Muhammadiyah Sumatera Utara <strong>(UMSU)</strong> yang memiliki minat dalam 
+        pengembangan web dan teknologi informasi.
+      </p>
+      <p>
+        Saya senang mempelajari desain antarmuka, pengembangan website, 
+        serta bagaimana teknologi dapat membantu menyelesaikan masalah 
+        dalam dunia bisnis dan organisasi.
+      </p>
+
+      <a href="#contact" class="hero-btn">Hubungi Saya</a>
+
+  </div>
+</section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="skills" id="about">
+    <div class="container">
+      <h2 class="section-title">Keahlian Saya</h2>
+      <p class="section-subtitle">Teknologi yang saya kuasai</p>
+
+      <div class="skills__grid">
+
+        <div class="skill-card">
+          <div class="skill-card__icon">💻</div>
+          <h3>HTML5</h3>
+          <p>Struktur website yang rapi dan semantic.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">🎨</div>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, dan Responsive Design.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>Membuat website interaktif dan dinamis.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">🔗</div>
+          <h3>Git & GitHub</h3>
+          <p>Version control dan kolaborasi tim.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">⚙</div>
+          <h3>React</h3>
+          <p>Frontend modern berbasis komponen.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">🚀</div>
+          <h3>Performance</h3>
+          <p>Optimasi kecepatan dan SEO website.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+    <!-- ================= EDUCATION ================= -->
+  <section class="education" id="education">
+    <div class="container">
+      <h2 class="section-title">Riwayat Pendidikan</h2>
+      <p class="section-subtitle">Perjalanan akademik saya</p>
+
+      <div class="education__timeline">
+
+        <div class="education__item">
+          <div class="education__year">  2024 - Sekarang</div>
+          <div class="education__content">
+            <h3>Universitas Muhammadiyah Sumatera Utara</h3>
+            <p>Program Studi Sistem Informasi - Fakultas Ilmu Komputer dan Teknologi Informasi.</p>
+          </div>
+        </div>
+
+        <div class="education__item">
+          <div class="education__year">  2019 - 2022</div>
+          <div class="education__content">
+            <h3>SMA Negeri</h3>
+            <p>Jurusan IPA dengan fokus pada sains dan matematika.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+ <!-- ================= PORTFOLIO ================= -->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <h2 class="section-title">Portfolio</h2>
+    <p class="section-subtitle">Project Unggulan Saya</p>
+
+    <div class="portfolio__card">
+
+      <!-- GAMBAR PROJECT -->
+      <div class="portfolio__image">
+        <img src="images/project-julajula.png" alt="Sistem Data Admin Jula Jula">
+      </div>
+
+      <!-- ISI PROJECT -->
+      <div class="portfolio__content">
+        <h3>Sistem Data Pengguna Admin Jula-Jula</h3>
+
+        <p>
+          Sistem ini merupakan aplikasi berbasis web yang dikembangkan 
+          untuk membantu admin dalam mengelola data pengguna Jula-Jula 
+          secara terstruktur dan efisien.
+        </p>
+
+        <p>
+          Aplikasi ini memiliki fitur utama seperti:
+          pengelolaan data pengguna (CRUD), sistem login admin,
+          validasi input data, pencarian data, serta integrasi
+          database menggunakan MySQL.
+        </p>
+
+        <p>
+          Tujuan dari sistem ini adalah untuk meningkatkan efisiensi 
+          pengelolaan data serta meminimalisir kesalahan pencatatan manual.
+        </p>
+
+        <div class="portfolio__tech">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>PHP</span>
+          <span>MySQL</span>
+        </div>
+
+        <div class="portfolio__links">
+          <a href="https://www.youtube.com/playlist?list=PLPTyD1oP5u_I6V_x43V3b_hf6dtFQMhvy" target="_blank" class="btn-primary">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2 class="section-title">Hubungi Saya</h2>
+    <p class="section-subtitle contact-tagline"></p>
+
+    <div class="contact__wrapper">
+
+      <!-- LEFT SIDE (INFO) -->
+      <div class="contact__info">
+
+        <div class="contact__item">
+          <h3>Email</h3>
+          <a href="mailto:jijoy1412@gmail.com">
+            jijoy1412@gmail.com
+          </a>
+        </div>
+
+        <div class="contact__item">
+          <h3>WhatsApp</h3>
+          <a href="https://wa.me/6281234567890" target="_blank">
+            +62 812-6423-8655
+          </a>
+        </div>
+
+        <div class="contact__item">
+          <h3>GitHub</h3>
+          <a href="https://github.com/Joyy14" target="_blank">
+            github.com/Joyy14
+          </a>
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDE (FORM) -->
+      <form 
+  class="contact__form"
+  action="https://formspree.io/f/meelyoaa"
+  method="POST"
+>
+  <input type="text" name="nama" placeholder="Nama Anda" required>
+  <input type="email" name="email" placeholder="Email Anda" required>
+  <textarea name="pesan" rows="5" placeholder="Pesan Anda" required></textarea>
+
+  <button type="submit" class="btn-submit">
+    Kirim Pesan
+  </button>
+</form>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <span class="footer__brand">◆ Azri Portfolio</span>
+        <p class="footer__copy">
+          &copy; 2026 Azri Destria. Dibuat dengan HTML & CSS.
+        </p>
+        <div class="footer__links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html> 
